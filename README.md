@@ -1,4 +1,3 @@
-# EduBridge
 # <img src="./application/frontend/sw-engg/src/images/eduBridge.webp" alt="EduBridge Logo" width="300" height="300" style="border-radius:50%"> 
 
 # 🎓 EduBridge – Student-Instructor Learning Platform
