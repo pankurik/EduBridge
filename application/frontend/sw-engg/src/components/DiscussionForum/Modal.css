@@ -1,0 +1,121 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 999;
+    max-width: 500px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-image: url('../../images/Backgroundimage.png');
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-group textarea {
+    height: 100px;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content button[disabled] {
+    opacity: 0.5;
+}
+
+.character-count {
+    font-size: 0.8em;
+    color: #555;
+}
+
+.text-area{
+    resize: none;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.red-color{
+    color: red;
+}
+
+.error {
+    color: #b00020;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dropzone {
+    border: 2px dashed #1a73e8;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+}
+
+.dropzone:hover {
+    background-color: #e8f0fe;
+}
+
+.MuiTextField-root {
+    margin-bottom: 16px;
+}

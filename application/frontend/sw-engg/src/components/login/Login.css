@@ -1,0 +1,14 @@
+.last-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up{
+    color: #005B4B !important;
+    background-color: white !important;
+}
+
+.sign-up:hover{
+    color: white !important;
+    background-color: #005B4B !important;
+}

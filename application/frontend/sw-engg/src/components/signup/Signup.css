@@ -1,0 +1,14 @@
+.last-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in{
+    color: #005B4B!important;
+    background-color: white !important;
+}
+
+.sign-in:hover{
+    color: white !important;
+    background-color: #005B4B !important;
+}

@@ -1,0 +1,118 @@
+body {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.tab-button {
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+    color: #2A6B58;
+    background-color: white; /* Fix the background-color property */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.tab-button:hover,
+.tab-button:focus {
+    background-color: transparent;
+    color: #2A6B58;
+    outline: none;
+}
+
+.tab-button.active {
+    background-color: #2A6B58!important;
+    color: white;
+    position: relative;
+}
+
+.courses-carousel-container,
+.files-carousel-container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.file-card {
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.file-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.file-info {
+    text-align: center;
+}
+
+.slick-slider {
+    position: relative;
+    z-index: 1;
+}
+
+/* Maintain the styles for the photo carousel */
+.photo-slide {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.photo-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+    transform: translateX(50%) translateY(-50%);
+}
+
+.slick-disabled {
+    opacity: 0.3;
+    cursor: default;
+}

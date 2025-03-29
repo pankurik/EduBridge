@@ -1,0 +1,63 @@
+.menu-box {
+    height: 500px;
+    width: 1000px;
+    padding-bottom: 10px !important;
+}
+
+.name-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 5px solid gray;
+    margin-bottom: 10px;
+}
+
+.name-text {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.firstName,
+.lastName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logout-text {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-right: 100px;
+    padding-left: 0px !important;
+}
+
+.search-field {
+    margin-left:10px!important;
+    background-color: white;
+    width: 40rem;
+    border-radius: 20px;
+}
+
+.Mui-focused{
+    border: 0px !important;
+}
+
+.navbar-first{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.main-Navbar{
+    display: flex;
+    left: 0;
+    flex-direction: column;
+    width: 99vw;
+    background-image: url('../../images/Backgroundimage.png');
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
